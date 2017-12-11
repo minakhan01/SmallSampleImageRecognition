@@ -45,7 +45,7 @@ from keras.models import Model
 
 # path to the model weights files.
 weights_path = 'vgg16_weights.h5'
-top_model_weights_path = 'fc_model.h5'
+top_model_weights_path = 'bottleneck_fc_model.h5'
 # dimensions of our images.
 img_width, img_height = 150, 150
 
